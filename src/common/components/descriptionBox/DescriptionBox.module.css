@@ -1,0 +1,48 @@
+.product__name {
+  margin: 0px 0px 0px 0px;
+}
+
+.product__price_normal {
+  font-size: 0.8rem;
+  margin-top: 15px;
+}
+
+.product__price_discount {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}
+
+.product__morecolours {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+
+.product_addtocart {
+  width: 36%;
+  background: #2971CE;
+  padding: 7px 10px 7px 10px;
+  justify-self: center;
+  font-size: 0.7rem;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+@media all and (min-width: 22em) {
+  .product_addtocart {
+    width: 60%;
+  }
+  .product__price_discount {
+    margin-top: -0.3rem;
+  }
+  .product__morecolours {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.hasDiscountStyle {
+  text-decoration-line: line-through;
+}
